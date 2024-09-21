@@ -9,4 +9,4 @@ if [ ! -d "$1" ]; then
 fi 
 
 echo "Список файлов:"
-ls -lt "$1" 
+ls -lt "$1" | grep '^-'
